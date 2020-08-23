@@ -1,3 +1,16 @@
+/**
+  file   :  BFS.cpp 
+  brief  :  幅優先探索を行う．単一始点最短経路問題に使える．隣接行列を使用．
+  author :  S.SUGIHARA
+  date   :  2020-08-23
+  update :
+ */
+
+/**
+  参考資料：RASEN本(アルゴリズムとデータ構造)
+  コードテスト(AOJ)：
+*/
+
 #include <bits/stdc++.h>
 #define REP(i,n) for (int i = 0; i <(n); ++i)
 #define REP2(i,x,n) for (int i = x; i <(n); ++i)
@@ -5,16 +18,8 @@
 #define RALL(v) v.rbegin(), v.rend()
 using namespace std;
 using ll = long long;
-using P = pair<int,int>;
-static const double PI = acos(-1);
 
-
-//---------------------------//
-// BFS
-//探索の始点となる頂点から，拡張点への
-//最短経路を求めることのできるアルゴリズム
-//---------------------------//
-
+//
 static const int N = 100;
 static const int INF = (1<<21);
 
@@ -47,10 +52,6 @@ void bfs(int s){
   REP(i,n){
     cout << i + 1 << " " << ((d[i] == INF) ? (-1) : d[i] ) << endl;
   }
-
-
-
-
 }
 int main(){
   int u, k, v;
