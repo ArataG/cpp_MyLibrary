@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-#define REP(i,n) for (int i = 0; i <(n); ++i)
-#define REP2(i,x,n) for (int i = x; i <(n); ++i)
 /**
   file   :  Kruskal.cpp (use Union Find Library)
   brief  :  最小全域木の辺の重みの総和を計算する．O[|E|log|E|]
@@ -13,6 +10,10 @@
   参考資料： RASEN本(アルゴリズムとデータ構造)
   コードテスト(AOJ)： https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/2/GRL_2_A
 */
+
+#include <bits/stdc++.h>
+#define REP(i,n) for (int i = 0; i <(n); ++i)
+#define REP2(i,x,n) for (int i = x; i <(n); ++i)
 #define ALL(v) v.begin(), v.end()
 #define RALL(v) v.rbegin(), v.rend()
 using namespace std;
