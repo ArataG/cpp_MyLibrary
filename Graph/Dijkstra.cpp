@@ -1,9 +1,6 @@
 /**
   file   :  Dijkstra.cpp 
   brief  :  単一始点最短経路問題．重み付きグラフ.負のコストがある場合は使えない．O[|V|^2]
-  author :  S.SUGIHARA
-  date   :  2020-08-23
-  update :
  */
 
 /**

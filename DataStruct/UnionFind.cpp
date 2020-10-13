@@ -1,9 +1,6 @@
 /**
 File   :  UnionFind.cpp
 Brief  :  UnionFindを使うことができる．宣言，uniteで連結，sameで同じ連結成分に属しているか，sizeで連結成分の大きさを返す．
-Author :  S.SUGIHARA
-Date   :  2020-08-30
-Update :
 */
 
 /**

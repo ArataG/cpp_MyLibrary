@@ -1,10 +1,6 @@
 /**
   file RAQ.cpp
-  brief Range Add Query: Segment Treeを利用してRange Add Query(区間更新，一点取得）を行う．
-  author S.SUGIHARA
-  date 2020-08-23
-  update
- 
+  brief Range Add Query: Segment Treeを利用してRange Add Query(区間更新，一点取得）を行う． 
  */
 
 /**

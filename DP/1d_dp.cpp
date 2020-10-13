@@ -1,9 +1,6 @@
 /**
 File   :  1d_dp.cpp
 Brief  :  一次元DPについて
-Author :  S.SUGIHARA
-Date   :  2020-09-20
-Update :
 */
 
 /**

@@ -1,9 +1,6 @@
 /**
   file   :  Kruskal.cpp (use Union Find Library)
   brief  :  最小全域木の辺の重みの総和を計算する．O[|E|log|E|]
-  author :  S.SUGIHARA
-  date   :  2020-08-23
-  update :
  */
 
 /**

@@ -1,10 +1,6 @@
 /**
   file RMQ.cpp
-  brief Range Minimum Query: 再帰関数のSegment Treeを利用してRange Minimum Query(一点更新，区間取得)を行う．
-  author S.SUGIHARA
-  date 2020-08-23
-  update
- 
+  brief Range Minimum Query: 再帰関数のSegment Treeを利用してRange Minimum Query(一点更新，区間取得)を行う． 
  */
 
 /**

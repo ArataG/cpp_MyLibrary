@@ -1,9 +1,6 @@
 /**
   file   :  BFS.cpp 
   brief  :  幅優先探索を行う．単一始点最短経路問題に使える．隣接行列を使用．
-  author :  S.SUGIHARA
-  date   :  2020-08-23
-  update :
  */
 
 /**

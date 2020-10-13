@@ -1,9 +1,6 @@
 /**
 File   :  eratos.cpp
 Brief  :  N以下の素数の列挙を行う．エラトステネスの篩のアルゴリズムを用いる．O[N log(N)]
-Author :  S.SUGIHARA
-Date   :  2020-08-24
-Update :
 */
 
 /**

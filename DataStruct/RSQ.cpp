@@ -1,10 +1,6 @@
 /**
   file RSQ.cpp
-  brief Range Sum Query: Segment Treeを利用してRange Sum Query(区間更新，一点取得）を行う．
-  author S.SUGIHARA
-  date 2020-08-23
-  update
- 
+  brief Range Sum Query: Segment Treeを利用してRange Sum Query(区間更新，一点取得）を行う． 
  */
 
 /**

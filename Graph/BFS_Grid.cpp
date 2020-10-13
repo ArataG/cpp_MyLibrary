@@ -1,9 +1,6 @@
 /**
   file   :  BFS_Grid.cpp 
   brief  :  迷路の最短距離をBFSで探す．height * widthの迷路．スタートとゴールの座標をセットする．
-  author :  S.SUGIHARA
-  date   :  2020-08-23
-  update :
  */
 
 /**

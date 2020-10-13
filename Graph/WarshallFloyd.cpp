@@ -1,9 +1,6 @@
 /**
   file   :  WashallFloyd.cpp
   brief  : 全点対間の最短経路問題に利用する．O[|v|^3] v:　頂点数
-  author : S.SUGIHARA
-  date   : 2020-08-23
-  update :
  */
 
 /**

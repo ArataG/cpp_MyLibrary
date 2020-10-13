@@ -1,9 +1,6 @@
 /**
 File   :  mint.cpp
 Brief  :  modの計算ができるライブラリ．intの代わりにmintとして宣言することで，他の四則演算と同様に使用することができる.
-Author :  S.SUGIHARA
-Date   :  2020-08-30
-Update :
 */
 
 /**

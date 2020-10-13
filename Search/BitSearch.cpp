@@ -1,9 +1,6 @@
 /**
   file   :  BitSearch.cpp 
   brief  :  bit全探索を行う．
-  author :  S.SUGIHARA
-  date   :  2020-08-23
-  update :
  */
 
 /**

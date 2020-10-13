@@ -1,5 +1,6 @@
 # cpp_MyLibrary
-c++で作成した便利なアルゴリズムをまとめます．
+自分用にc++のアルゴリズムをまとめています．
+
 
 ## Contents
  
@@ -18,6 +19,9 @@ c++で作成した便利なアルゴリズムをまとめます．
 |RSQ.cpp |        |
 
 ### Geometry: 幾何
+* 整理中
+|ファイル名|機能|
+|:-------|:-------|
 
 ### Graph: グラフ
 |ファイル名|機能|
@@ -44,7 +48,7 @@ c++で作成した便利なアルゴリズムをまとめます．
 |:------------|:-------|
 |template.cpp |初期入力のためのテンプレート|
 
-
-
-## License
-## Authors
+# Reference
+- プログラミングコンテスト攻略のためのアルゴリズムとデータ構造, 渡部有隆, マイナビ出版, 2015
+- atcoder　live_library
+- YouTube(かつっぱ競プロ) https://www.youtube.com/channel/UCqqeYOh1gk_TJ16sxazWhUg

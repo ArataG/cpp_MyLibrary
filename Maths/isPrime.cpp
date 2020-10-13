@@ -1,9 +1,6 @@
 /**
 File   :  isPrime.cpp
 Brief  :  入力されて整数Nが素数かどうかを判定する．O[√x]
-Author :  S.SUGIHARA
-Date   :  2020-08-24
-Update :
 **/
 
 /**
