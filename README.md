@@ -39,6 +39,7 @@
 |Eratos.cpp   |n以下の素数を列挙|
 |isPrime.cpp  |素数判定|
 |enum_divisor.cpp|n以下の約数を列挙|
+|prime_factorize.cpp|n以下の素因数と素因数の個数を列挙|
 
 ### Search: 探索
 |ファイル名|機能|
