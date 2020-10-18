@@ -1,7 +1,6 @@
 # cpp_MyLibrary
 自分用にc++のアルゴリズムをまとめています．
 
-
 ## Contents
  
 ### DP: 動的計画法
@@ -15,13 +14,15 @@
 |ファイル名|機能|
 |:-------|:-------|
 |RAQ.cpp |セグメントツリーによる Range Add Query|
-|RMQ.cpp |        |
-|RSQ.cpp |        |
+|RMQ.cpp |セグメントツリーによる Range Minimum Query|
+|RSQ.cpp |セグメントツリーによる Range Sum Query|
 
 ### Geometry: 幾何
-* 整理中
+整理中
+
 |ファイル名|機能|
 |:-------|:-------|
+
 
 ### Graph: グラフ
 |ファイル名|機能|
@@ -35,8 +36,9 @@
 ### Maths:　数学
 |ファイル名|機能|
 |:------------|:-------|
-|Eratos.cpp   ||
-|isPrime.cpp  ||
+|Eratos.cpp   |n以下の素数を列挙|
+|isPrime.cpp  |素数判定|
+|enum_divisor.cpp|n以下の約数を列挙|
 
 ### Search: 探索
 |ファイル名|機能|
@@ -47,6 +49,7 @@
 |ファイル名|機能|
 |:------------|:-------|
 |template.cpp |初期入力のためのテンプレート|
+|mint.cpp|mod int|
 
 # Reference
 - プログラミングコンテスト攻略のためのアルゴリズムとデータ構造, 渡部有隆, マイナビ出版, 2015
