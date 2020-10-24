@@ -40,6 +40,7 @@
 |isPrime.cpp  |素数判定|
 |enum_divisor.cpp|n以下の約数を列挙|
 |prime_factorize.cpp|n以下の素因数と素因数の個数を列挙|
+|get_digit.cpp|整数nの桁数を返す(ただ10で割ってるだけ)|
 
 ### Search: 探索
 |ファイル名|機能|
