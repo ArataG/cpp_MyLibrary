@@ -16,6 +16,8 @@
 |RAQ.cpp |セグメントツリーによる Range Add Query|
 |RMQ.cpp |セグメントツリーによる Range Minimum Query|
 |RSQ.cpp |セグメントツリーによる Range Sum Query|
+|UnionFind.cpp|データを互いに素な集合(連結成分)ごとに分ける|
+|UnionFind-getList.cpp|連結成分ごとのリストを返せるよう機能を追加|
 
 ### Geometry: 幾何
 整理中
