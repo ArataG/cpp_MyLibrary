@@ -58,6 +58,14 @@
 |mint.cpp|mod int|
 |two-pointers.cpp|しゃくとり法|
 
+### IOstream
+|ファイル名|機能|
+|:------------|:-------|
+|file-input.cpp|ファイルを入力|
+|file-output.cpp|ファイルを入力|
+|command-line.cpp |コマンドライン引数を利用してファイル名を指定|
+
+
 # Reference
 - プログラミングコンテスト攻略のためのアルゴリズムとデータ構造, 渡部有隆, マイナビ出版, 2015
 - atcoder　live_library
