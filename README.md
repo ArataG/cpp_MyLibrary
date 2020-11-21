@@ -44,6 +44,7 @@
 |enum_divisor.cpp|n以下の約数を列挙|
 |prime_factorize.cpp|n以下の素因数と素因数の個数を列挙|
 |get_digit.cpp|整数nの桁数を返す(ただ10で割ってるだけ)|
+|modPow.cpp|繰り返し2乗法を利用した累乗の計算|
 
 ### Search: 探索
 |ファイル名|機能|
@@ -57,6 +58,7 @@
 |template.cpp |初期入力のためのテンプレート|
 |mint.cpp|mod int|
 |two-pointers.cpp|しゃくとり法|
+|comb01.cpp|combination(n,a) nが大きく，aが小さい場合の計算|
 
 ### IOstream
 |ファイル名|機能|
