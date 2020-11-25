@@ -20,16 +20,16 @@
 |UnionFind-getList.cpp|連結成分ごとのリストを返せるよう機能を追加|
 
 ### Geometry: 幾何
-整理中
 
 |ファイル名|機能|
 |:-------|:-------|
+|geometry-2d.cpp|二次元平面のライブラリ. TODO: しばらく触ってないので,使い方の再確認とテストが必要.|
 
 
 ### Graph: グラフ
 |ファイル名|機能|
 |:----------------|:-------|
-|BFS_Grid.cpp     |        |
+|BFS_Grid.cpp     |迷路の最短距離をBFSで探索する．height * widthの迷路．スタートとゴールの座標をセットする|
 |BFS_Matrix.cpp   |        |
 |Dijkstra.cpp     |        |
 |Kruskal.cpp      |        |
