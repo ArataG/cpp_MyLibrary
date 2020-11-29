@@ -8,6 +8,8 @@
 |ファイル名     |機能     |
 |:------------|:-------|
 |knapusack.cpp||
+|EDPC/        |DP典型問題. ([AtCoderDPまとめコンテスト](https://atcoder.jp/contests/dp)のACコード): 更新中|
+
 
 ### DataStruct: データ構造
 
