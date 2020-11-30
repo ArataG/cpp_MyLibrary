@@ -53,6 +53,8 @@
 |:------------|:-------|
 |BitSearch.cpp||
 |permutation.cpp|順列全探索|
+|binary_search.cpp|二分探索の素朴な実装(binary_searchとlower_bound)|
+|meguru_binary_search.cpp|めぐる式二分探索. f(x)を満たす最大(最小)のxを二分探索で求めることができる|
 
 ### Util: ユーティリティー
 |ファイル名|機能|
