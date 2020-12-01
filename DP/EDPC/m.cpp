@@ -26,33 +26,47 @@ const int NMAX = 100+5;
 const int KMAX = 1e5+5;
 const int MOD = 1e9+7;
 ll dp[NMAX][KMAX];
+ll sum[NMAX][KMAX];
+
 int main(){
   //#define int long long
   int n, k;
   cin >> n >> k;
   vector<int> a(n+1);
-  REP(i,n) cin >> a[i];
+  REP2(i,1,n+1) cin >> a[i];
 
   //REP(i,n+1) 
   dp[0][0] = 1;
-  REP2(i, 1, n+1) {
-    vector<int> cum(k+2);
-    cum[0] = 0;
-    REP(j,k+1){
-      REP2(j,1,k+1) cum[j] = (cum[j-1] + dp[i-1][j-1])%MOD; 
-      //cum[j]=dp[i-1][0]+...+dp[i-1][j-1]
-      REP2(j,0,k+1) dp[i][j] = (cum[j+1]-cum[max(0,j-a[i])]+MOD)%MOD;
-    }
+  REP(j,k+1){
+    if(j > 0) sum[0][j] = sum[0][j-1] + dp[0][j];
+    else sum[0][j] = dp[0][j];
+    
   }
+  REP2(i,1,n+1) {
+      REP(j,k+1){
+        //dp遷移
+        dp[i][j] =  sum[i-1][j];
+        if(j-a[i]-1 >= 0) dp[i][j] -= sum[i-1][j-a[i]-1];
+        
+        //累積和の計算
+        if(j > 0) sum[i][j] = sum[i][j-1] + dp[i][j];
+        else sum[i][j] = dp[i][j];
+        
+        //MODを取る
+        dp[i][j] %=  MOD;
+        sum[i][j] %= MOD;
+      }
+  }
+  if (dp[n][k] < 0) dp[n][k] += MOD;
   cout << dp[n][k] << endl;
 
-//debug
-  REP(i,n+1){
-    REP(j, k+1) {
-      cout << dp[i][j] << " ";
-    }
-    cout << endl;
-  }
+  //debug
+  // REP(i,n+1){
+  //   REP(j, k+1) {
+  //     cout << dp[i][j] << " ";
+  //   }
+  //   cout << endl;
+  // }
 
   return 0;
 }
