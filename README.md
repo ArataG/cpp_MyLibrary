@@ -70,6 +70,8 @@
 |file-input.cpp|ファイルを入力|
 |file-output.cpp|ファイルを入力|
 |command-line.cpp |コマンドライン引数を利用してファイル名を指定|
+|isAnaglam.cpp|2つの文字列がアナグラム化判定する|
+|pairSort.cpp|pair型のvector配列の昇順, 降順ソートについてのまとめ|
 
 
 # Reference
