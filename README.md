@@ -34,8 +34,8 @@
 |BFS_Grid.cpp     |迷路の最短距離をBFSで探索する．height * widthの迷路．スタートとゴールの座標をセットする|
 |BFS_Matrix.cpp   |        |
 |Dijkstra.cpp     |単一始点最短経路問題．重み付きグラフ.負のコストがある場合は使えない．O[|V|^2]|
-|Kruskal.cpp      |        |
-|WarshallFloyd.cpp|        |
+|Kruskal.cpp      |重み付き連結グラフの最小全域木を求めるアルゴリズム|
+|WarshallFloyd.cpp|全頂点間最短距離 O[|V|^3]|
 |Topological_sort.cpp|有向非巡回グラフ(DAG)の各頂点を順序付け．どの頂点もその出力変の先のノードより前に来るように並べ替える|
 
 ### Maths:　数学
