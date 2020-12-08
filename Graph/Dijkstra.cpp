@@ -1,11 +1,14 @@
 /**
   file   :  Dijkstra.cpp 
   brief  :  単一始点最短経路問題．重み付きグラフ.負のコストがある場合は使えない．O[|V|^2]
+  update : 2020-12-08: dijkstraに, 始点のデフォルト引数追加. 
+           始点 = 0の場合は, dijkstra() でok.
+           始点を指定したいときは, dijkstra(st);
  */
 
 /**
   参考資料： RASEN本(アルゴリズムとデータ構造)
-  コードテスト(AOJ)： 
+  コードテスト(AOJ)：https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_12_C 
 */
 
 #include <bits/stdc++.h>
@@ -28,7 +31,7 @@ int n;
 vector<pair<int, int>> adj[MAX];
 //グラフの隣接リスト表現(重み付き有向)　first:隣接頂点，second; コスト
 
-void dijkstra(){
+void dijkstra(int st = 0){
   priority_queue<pair<int, int>> PQ;  //各隣接頂点の始点からのコストのキュー
   int color[MAX]; //訪問状況
   int d[MAX];     //始点から各頂点までの最小コスト
@@ -39,9 +42,9 @@ void dijkstra(){
   }
 
   //始点のコストｄ[0]と，，priority_quwueに代入
-  d[0] = 0;
-  PQ.push(make_pair(0, 0));
-  color[0] = GRAY;
+  d[st] = 0;
+  PQ.push(make_pair(0, st));
+  color[st] = GRAY;
 
 
   //最短経路の探索ループ
@@ -70,7 +73,7 @@ void dijkstra(){
   }
 
   for( int i = 0; i < n; i++ ){
-    cout << i << " "  << (d[i] == INFTY ? -1 : d[i]) << endl;
+    cout << i << " "  << (d[i] == INFTY ? -1 : d[i]) << endl; //到達できない時INF
   }
 
 
@@ -86,11 +89,14 @@ int main(){
     REP(j,k){
       cin >> v >> c;
       adj[u].push_back(make_pair(v, c));
+      // adj[v].push_back(make_pair(u, c)); // 無向グラフの場合は追加
     }
   }
 
   //
   dijkstra();
+  //int st = 0;
+  //dijkstra(st);
 
   return 0;
 }
