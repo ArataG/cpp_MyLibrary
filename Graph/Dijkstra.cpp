@@ -32,7 +32,7 @@ vector<pair<int, int>> adj[MAX];
 //グラフの隣接リスト表現(重み付き有向)　first:隣接頂点，second; コスト
 
 void dijkstra(int st = 0){
-  priority_queue<pair<int, int>> PQ;  //各隣接頂点の始点からのコストのキュー
+  priority_queue<pair<int, int>> PQ;//(コスト,到達頂点)各隣接頂点の始点からのコストのキュー
   int color[MAX]; //訪問状況
   int d[MAX];     //始点から各頂点までの最小コスト
   //初期化
