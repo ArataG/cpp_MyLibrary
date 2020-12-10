@@ -63,6 +63,8 @@
 |mint.cpp|mod int|
 |two-pointers.cpp|しゃくとり法|
 |comb01.cpp|combination(n,a) nが大きく，aが小さい場合の計算|
+|print-debug.cpp|プリントデバック用, コンパイル時にオプション`-D_DEBUG`をつけると変数の値を見れる.|
+
 
 ### IOstream
 |ファイル名|機能|
