@@ -63,6 +63,7 @@
 |mint.cpp|mod int|
 |two-pointers.cpp|しゃくとり法|
 |comb01.cpp|combination(n,a) nが大きく，aが小さい場合の計算|
+|comb02-pascal.cpp|combination(n,a) を二項定理(パスカルの三角形で確認できる.comb(199, 11)まで確認 |
 |print-debug.cpp|プリントデバック用, コンパイル時にオプション`-D_DEBUG`をつけると変数の値を見れる.|
 
 
