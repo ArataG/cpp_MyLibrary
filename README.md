@@ -47,6 +47,7 @@
 |prime_factorize.cpp|n以下の素因数と素因数の個数を列挙|
 |get_digit.cpp|整数nの桁数を返す(ただ10で割ってるだけ)|
 |modPow.cpp|繰り返し2乗法を利用した累乗の計算|
+|xsinsu.cpp|整数nをX進数に変換する|
 
 ### Search: 探索
 |ファイル名|機能|
